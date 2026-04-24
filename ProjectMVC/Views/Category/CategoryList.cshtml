@@ -1,0 +1,97 @@
+﻿@using Entity.Concrete
+@model List<Category> 
+@{
+    ViewBag.Title = "CategoryList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-12">
+                <div class="col-sm-12">
+                    <h1>Simple Tables</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Simple Tables</li>
+                    </ol>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Kategory Tablo</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Kategori Adi</th>
+                                        <th>Durum</th>
+                                        <th>Sil</th>
+                                        <th style="width: 40px">Guncelle</th>
+                                        <th style="width: 40px">Başlıklar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            <td>@item.CategoryID</td>
+                                            <td>@item.CategoryName</td>
+                                            <td>@item.CategoryStatus</td>
+                                            <td>
+                                                <a class="btn btn-danger btn-sm" href="/Category/DeleteCategory/@item.CategoryID">
+                                                    <i class="fas fa-trash">
+                                                    </i>
+                                                    Sil
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-info btn-sm" href="/Category/UpdateCategory/@item.CategoryID">
+                                                    <i class="fas fa-pencil-alt">
+                                                    </i>
+                                                    Güncellemek
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-primary btn-sm" href="#">
+                                                    <i class="fas fa-folder">
+                                                    </i>
+                                                    View
+                                                </a>
+                                            </td>
+                                          
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                            </table>
+                            <br />
+                            <a class="btn btn-outline-primary" href="/Category/CreateCategory">Yeni Kategori Ekle</a>
+                        </div>
+                       
+                    </div>
+
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+        </div><!-- /.container-fluid -->
+    </section>
+    </div>

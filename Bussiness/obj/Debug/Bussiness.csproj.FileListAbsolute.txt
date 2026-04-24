@@ -1,0 +1,16 @@
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\obj\Debug\Bussiness.csproj.AssemblyReference.cache
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\obj\Debug\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\Bussiness.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\Bussiness.pdb
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\DataAccess.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\Entity.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\FluentValidation.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\EntityFramework.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\DataAccess.pdb
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\DataAccess.dll.config
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\Entity.pdb
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\FluentValidation.xml
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\bin\Debug\EntityFramework.xml
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\obj\Debug\Bussiness.csproj.Up2Date
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\obj\Debug\Bussiness.dll
+C:\Users\salma\source\repos\ProjectMVC\Bussiness\obj\Debug\Bussiness.pdb

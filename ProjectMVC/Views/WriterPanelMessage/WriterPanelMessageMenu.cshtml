@@ -1,0 +1,88 @@
+﻿<div class="col-md-3">
+    <a href="/WriterPanelMessage/MyNewMessage/" class="btn btn-primary btn-block mb-3">Oluştur</a>
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Seçenekler</h3>
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item active">
+                    <a href="/Contact/ContactList" class="nav-link">
+                        <i class="fas fa-inbox"></i> Iletişim
+                        <span class="badge bg-primary float-right">12</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="/WriterPanelMessage/MyInbox/" class="nav-link">
+                        <i class="fas fa-inbox"></i> Gelen Mesajlar
+                        <span class="badge bg-info float-right">@ViewBag.MyMessageCount</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/WriterPanelMessage/MySendBox/" class="nav-link">
+                        <i class="far fa-envelope"></i> Gönderen Mesajlar
+                        <span class="badge bg-success float-right">@ViewBag.MySenderMessageCount</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-file-alt"></i> Taslaklar
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-filter"></i> Spam
+                        <span class="badge bg-warning float-right">@ViewBag.SpamCount</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/WriterPanelMessage/TrashMessage/" class="nav-link">
+                        <i class="far fa-trash-alt"></i> Çöp Kutusu
+                        <span class="badge bg-danger float-right">@ViewBag.Cop </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Diğer</h3>
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle text-danger"></i>
+                        Önemlilar
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle text-warning"></i> Tanıtımlar
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle text-primary"></i>
+                        Sosyal Media
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+</div>
+

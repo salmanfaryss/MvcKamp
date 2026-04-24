@@ -1,0 +1,38 @@
+﻿@using Entity.Concrete
+@model Writer
+@{
+    ViewBag.Title = "CreateWriter";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("CreateWriter", "Writer", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Yazar Adi")
+        @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterName)
+        <br /><br />
+        @Html.Label("Yazar Soyadi")
+        @Html.TextBoxFor(x => x.WriterSurname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterSurname)
+        <br /><br />
+        @Html.Label("Yazar Email")
+        @Html.TextBoxFor(x => x.WriterEmail, new { @class = "form-control" })
+
+        <br /><br />
+        @Html.Label("Yazar Şifre")
+        @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+
+        <br /><br />
+        @Html.Label("Yazar Resim")
+        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+
+        <br /><br />
+        @Html.Label("Yazar Hakkimda")
+        @Html.TextAreaFor(x => x.WriterAbout, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterAbout)
+        <br /><br />
+        <button class="btn btn-outline-info">Ekle</button>
+    </div>
+}
