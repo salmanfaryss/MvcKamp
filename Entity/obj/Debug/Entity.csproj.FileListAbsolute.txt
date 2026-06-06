@@ -1,0 +1,6 @@
+C:\Users\salma\source\repos\ProjectMVC\Entity\bin\Debug\Entity.dll
+C:\Users\salma\source\repos\ProjectMVC\Entity\bin\Debug\Entity.pdb
+C:\Users\salma\source\repos\ProjectMVC\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\salma\source\repos\ProjectMVC\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\salma\source\repos\ProjectMVC\Entity\obj\Debug\Entity.dll
+C:\Users\salma\source\repos\ProjectMVC\Entity\obj\Debug\Entity.pdb
